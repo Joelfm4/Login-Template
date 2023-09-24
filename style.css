@@ -3,9 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 
+    font-family: Roboto, Arial;
+
 }
 
-
+:root{
+    --gray: rgb(168, 165, 165);
+}
 
 
 
@@ -16,86 +20,83 @@ body{
     background-position: center;
 }
 
-.button-username{
-    background-color: transparent; /* Define o fundo como transparente */
-    text-align: center;
-    margin: 10px auto;
-    width: 350px;
-    height: 45px;
-    border: 1px solid rgb(168, 165, 165);
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    display: inline-block;
-}
-
-.button-password{
-    background-color: transparent; /* Define o fundo como transparente */
-    border: 1px solid rgb(168, 165, 165);
-    text-align: center;
-    margin: 10px auto;
-    width: 350px;
-    height: 45px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    display: inline-block;
-}
-
-.login-title{
-    font-size: 30px;
-    color: white;
-}
-
-.login-button-button{
-    width: 350px;
-    height: 35px;
-    border: none;
-    font-size: 11px;
-    border-radius: 50px;
-}
-
-
-
 .login-div{
     text-align: center;
     backdrop-filter: blur(10px);
-    width: 400px;
-    height: 280px;
+    width: 400px;;
     padding: 10px;
     margin: 100px auto;
 }
 
 
-.remember{
-    font-size: 15px;
-    display: inline-block;
+.login-title p{
+    font-size: 30px;
     color: white;
-    margin-bottom: 10px;
 }
 
-.forgot-link{
-    font-size: 15px;
+
+.inputs{
+    background-color: transparent; /* Define o fundo como transparente */
+    text-align: center;
+    margin: 10px auto;
+    width: 350px;
+    height: 45px;
+    border: 1px solid var(--gray);
+    border-radius: 50px;
+    display: inline-block;
+}
+
+
+
+
+
+.extra-login{
+    align-items: center;
+    margin: 10px auto;
+
+}
+
+.remember{
+    font-size: 13px;
+    margin-right: 100px;
     display: inline-block;
     color: white;
-    margin-left: 40px;
+}
+
+.remember input[type="checkbox"] {
+    vertical-align:middle;
+    margin-right: 5px;
+}
+
+.forgot-link, .forgot-link a{
+    display: inline-block;
+    font-size: 13px;
+
+    color: white;
     text-decoration: none;
 }
+
+
+
+.login-button button{
+    width: 350px;
+    height: 35px;
+    border: none;
+    font-size: 11px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
 
 .create-register{
-    margin-top: 10px;
+    margin: 15px auto;
     color: white;
 }
 
-.registro-link{
-    font-size: 15px;
+.create-register a, p{
+    font-size: 13px;
     color: white;
     text-decoration: none;
-    margin-left: 2px;
 }
 
 #user{
