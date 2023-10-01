@@ -1,0 +1,102 @@
+
+
+@media screen and (max-width: 481px) {
+    :root{
+        --font-extra: 15px;
+    }
+    .login-div{
+        width: 95%;
+    }
+
+    .inputs{
+        width: 95%;
+    }
+
+    .extra-login{
+        font-size: var(--font-extra);
+        margin: 15px auto;
+    }
+    .remember{
+        margin-right: 20px;
+    }
+
+    .login-button button{
+        width: 95%;
+    }
+
+    .create-register{
+        font-size: var(--font-extra);
+    }
+
+    .create-register a, p{
+        font-size: var(--font-extra);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    :root{
+        --font-inputs: 15px;
+        --font-extra: 20px;
+    }
+    .login-div{
+        width: 95%;
+    }
+
+    .inputs{
+        width: 95%;
+        height: 55px;
+        margin: 15px auto;
+        font-size: var(--font-inputs);
+    }
+
+    .extra-login{
+        font-size: var(--font-extra);
+        margin: 15px auto;
+    }
+    .remember{
+        margin-right: 20px;
+    }
+
+    .login-button button{
+        font-size: 20px;
+        width: 95%;
+    }
+
+    .create-register a, p{
+        font-size: var(--font-extra);
+    }
+}
+@media screen and (max-width: 1025px) {
+    :root{
+        --font-inputs: 15px;
+        --font-extra: 20px;
+    }
+    .login-div{
+        width: 95%;
+    }
+
+    .inputs{
+        width: 95%;
+        height: 55px;
+        margin: 15px auto;
+        font-size: var(--font-inputs);
+    }
+
+    .extra-login{
+        font-size: var(--font-extra);
+        margin: 15px auto;
+    }
+    .remember{
+        margin-right: 20px;
+    }
+
+    .login-button button{
+        font-size: 20px;
+        width: 95%;
+    }
+
+    .create-register a, p{
+        font-size: var(--font-extra);
+    }
+}
